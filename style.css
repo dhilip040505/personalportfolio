@@ -1,10 +1,9 @@
-/* ===== Navbar ===== */
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #111827; /* dark toolbox look */
+  background-color: #111827;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -14,7 +13,7 @@
   z-index: 1000;
 }
 
-/* Logo styling */
+
 .navbar .logo {
   font-size: 1.5rem;
   font-weight: bold;
@@ -22,7 +21,7 @@
   color: #facc15;
 }
 
-/* Nav links */
+
 .navbar ul {
   list-style: none;
   display: flex;
@@ -38,25 +37,25 @@
 
 .navbar ul li a:hover,
 .navbar ul li a.active {
-  color: #facc15; /* gold accent */
+  color: #facc15; 
 }
 
-/* Hamburger for mobile */
 .hamburger {
-  display: none;
-  font-size: 1.8rem;
+  font-size: 28px;
   cursor: pointer;
+  display: none; 
 }
 
-/* Sticky layout fix: add margin to top so content isn’t hidden */
+
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #f9fafb;
-  padding-top: 70px; /* adjust if navbar height changes */
+  padding-top: 70px;
 }
 
-/* Mobile Responsive */
+
 @media (max-width: 768px) {
   .nav-links {
     display: none;
